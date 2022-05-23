@@ -1303,6 +1303,7 @@ h2 {
 
   .header {
     padding: 0 62px;
+    margin-top: 61px;
   }
 
   .header__burger {
@@ -1336,7 +1337,7 @@ h2 {
   }
 
   .header__burger:before {
-    top: 0;
+    top: 4px;
   }
 
   .header__burger:after {
@@ -1346,7 +1347,7 @@ h2 {
 
   .header__burger.active:before {
     transform: rotate(45deg);
-    top: 20px;
+    top: 0;
   } 
 
   .header__burger.active:after {
