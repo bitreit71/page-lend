@@ -1347,7 +1347,7 @@ h2 {
 
   .header__burger.active:before {
     transform: rotate(45deg);
-    top: 0;
+    top: 15px;
   } 
 
   .header__burger.active:after {
